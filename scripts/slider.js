@@ -198,12 +198,17 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
+
 	var calcMax = $('#credit-body').data('value');
 	var percent = (30 * 1.5) / 100;
 	var percents = Math.ceil(calcMax * percent);
 	var cashback = Math.ceil(calcMax + calcMax * percent);
 	$('#percents').text(percents + ' грн')
 	$('#cashback').text(cashback + ' грн')
-
+	
 
 })
+
+$("#credit-body")[0].innerHTML = 2680 + " грн";
+$("#percents")[0].innerHTML = 2613 + " грн";
+$("#cashback")[0].innerHTML = 3886 + " грн"
