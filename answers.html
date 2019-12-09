@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>about</title>
+    <!-- bootstrap cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/calcilator.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/shop.css">
+    <link rel="stylesheet" href="/styles/simlebar.css">
+    <link rel="stylesheet" href="/styles/animation.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+
+
+    
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/media1.css">
+</head>
+
+<body class="about">
+
+        <nav class="navbar">
+          
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbarToggleVisible" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar LineVisibleNavBar"></span>
+                      <span class="icon-bar LineVisibleNavBar"></span>
+                      <span class="icon-bar LineVisibleNavBar"></span>
+                    </button>
+                    <span class="LinkTopSide"><img src="/images/navtitle.png"></span>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle LinkTopSide nav_link" data-toggle="dropdown" href="some.html"><span class="nav_link">О нас</span>&nbsp;<span class="caret"></span></a>
+                            <ul class="dropdown-menu SpecialForUL">
+                              <li class="LinkTopSide"><a class="nav_link" href="some.html">Новости</a></li>
+                              <li class="LinkTopSide"><a class="nav_link" href="security.html">Безопасность</a></li>
+                              <li class="LinkTopSide"><a class="nav_link" href="urinfo.html">Документы</a></li>
+                              <li class="LinkTopSide"><a class="nav_link" href="presscentr.html">Пресс-центр</a></li>
+                            </ul>
+                          </li>
+                   
+                      <li class="LinkTopSide nav_link"><a class="nav_link" href="howitswork.html">Как это работает</a></li>
+                      <li class="LinkTopSide"><a class="nav_link" href="kakpogasit.html">Как погасить</a></li>
+                      <li class="LinkTopSide"><a class="nav_link" href="#">Вопросы и ответы</a></li>
+                    </ul>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="LinkTopSide"><a class="nav_link"  href="#">Ru</a></li>
+                        <li class="LinkTopSide"><a class="nav_item_cabinet" id="LichniyCabinet"  href="#"><i class="glyphicon glyphicon-user nav_item_cabinet_glyp"></i><span class="nav_link">&nbsp; &nbsp;Личный кабинет</span></a></li>
+                    </ul>
+                  
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              </nav>
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about__links">
+                        <ul class="about__links-nav">
+                            <li class="about__links-item">
+                                <a href="" class="about__links-link">
+                                    Новости
+                                </a>
+                            </li>
+                            <li class="about__links-item">
+                                <a href="" class="about__links-link">
+                                    Безопасность
+                                </a>
+                            </li>
+                            <li class="about__links-item">
+                                <a href="" class="about__links-link">
+                                    Документы
+                                </a>
+                            </li>
+                            <li class="about__links-item">
+                                <a href="" class="about__links-link">
+                                    Пресс-центр
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Calculator col-lg-4">
+                           
+                            <span class="">Выберите сумму</span>
+                            <input type="number" id="credit-amount" class="AmountInputInCalc credit-class value iPadNumber" min="100" max="15000" value="2680">
+                            <div class="slider amount ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all ui-draggable ui-draggable-handle">
+                                    <div class="indicate content-justify">
+                                        <span class="leftCreditLimit">500</span>
+                                        <span class="rightCreditLimit">15000</span>
+                                        <span class="amount-indicate hideNumber">2680</span>
+                                        </div>
+        
+                                        <span id="overflow">Можно получить</span><span id="overflow">Можно получить</span>
+                                    </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <span class="">Выберите срок</span>
+                                        <input type="number" id="days-amount" step="1" value="30" min="7" max="65" class="DateInputInCalc credit-class value iPadDate">
+                                        <div class="slider days ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all ui-draggable ui-draggable-handle">
+                                                <div class="indicate content-justify">
+                                                    <span class="leftDateLimit">7</span>
+                                                    <span class="rightDateLimit">65</span>
+                                                    <span class="day-indicate hideNumber">65</span>
+        
+                                                </div>
+                                                
+                                                <span id="overdays"><br>постоянным клиентам</span>
+                                              </div>
+                                                <div class="DateMoneyBack">
+                                                <span class="VseBukvivCalc">Дата возврата</span>
+                                                <span class="pull-right NumbersInCalc" id="date">26.03.2019</span>
+                                                </div>
+                                                <div class="marginbot_13 borderGrey">
+                                                        <span class="VseBukvivCalc">Тело кредита</span>
+                                                        <span class="pull-right NumbersInCalc" id="credit-body" data-value="15000">15000</span>
+                                                </div>
+                                                <div class="marginbot_13">
+                                                        <span class="VseBukvivCalc">Проценты по кредиту</span>
+                                                        <span class="pull-right NumbersInCalc" id="percents">6075 грн</span>
+                                                </div>
+                                                <div class="marginbot_13 borderGrey">
+                                                        <span class="VseBukvivCalc">Сумма к возврату</span>
+                                                        <span class="pull-right NumbersInCalc" id="cashback">21075 грн</span>
+                                                </div>
+                                                <a class="calculator__link">Получить кредит</a>
+        
+        
+        
+        
+        
+                                        <br>
+        
+        
+        
+                                    </div>
+                </div>
+                <div class="col-lg-8">
+
+                    <div class="bread">
+                        <a href="first.html" class="crumbs">
+                            Главная страница
+                        </a>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <a href="" class="crumbs">
+                            Вопросы и ответы
+                        </a>
+                     
+                     
+                    </div>
+                    <br>
+                    <div class="info">
+                        <h3>Вопросы и ответы</h3>
+
+                    </div>
+                  
+                    
+                  
+                    
+                    <div class="row">
+                            
+
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Кто и как может получить кредит?</a>
+                                </h4>
+                              </div>
+                              <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">Гражданин Украины в возрасте от 18 до 75 лет, имеющий личную карту любого банка Украины. Для того, чтобы получить кредит, Вам достаточно заполнить заявку на нашем сайте.</div>
+                              </div>
+                            </div>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Как определяется сумма и срок кредита?</a>
+                                </h4>
+                              </div>
+                              <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">Сумма кредита составляет от 500 до 10000 гривен. При первом займе максимальная сумма - 2500 гривен. При последующих займах - сумма кредита может быть увеличена до 10000 гривен в зависимости от суммы ранее погашенных кредитов. Срок займа составляет до 65 дней (без продления). При первом займе максимальный срок кредита до 30 дней, для постоянных клиентов срок кредитования может быть увеличен до 65 дней.</div>
+                              </div>
+                            </div>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Как быстро происходит выдача кредита?</a>
+                                </h4>
+                              </div>
+                              <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">Решение о выдаче принимается в течении 15 минут после того, как Вы отправите нам заполненную анкету. Зачисления на банковские карты Приват Банка происходит мгновенно. На карты других банков, согласно регламенту их работы (ориентировочно до 1 часа).</div>
+                              </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Что влияет на решение?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse4" class="panel-collapse collapse">
+                                  <div class="panel-body">Основным фактором является кредитная история. Чем выше Ваш кредитный рейтинг, тем выше вероятность положительного решения о выдаче кредита, так же значение имеют данные указанные в анкете.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Какие документы необходимы для получения кредита?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse5" class="panel-collapse collapse">
+                                  <div class="panel-body">Для получения кредита Вам необходимо иметь паспорт и идентификационный код.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Могу ли я получить у вас несколько кредитов одновременно?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse6" class="panel-collapse collapse">
+                                  <div class="panel-body">Нет. Мы не выдаём больше одного кредита одновременно. Вы всегда можете получить следующий кредит после погашения текущего займа.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Можно ли отказаться от кредита?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse7" class="panel-collapse collapse">
+                                  <div class="panel-body">Отказ от кредита возможен до согласия с условиями Договора. Если Вы уже согласились с условиями Договора, то он автоматически вступает в силу и кредитные средства будут перечислены на Вашу карту.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Как узнать решение по заявке?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse8" class="panel-collapse collapse">
+                                  <div class="panel-body">Когда решение будет принято, Вы получите смс на указанный Вами контактный номер телефона. Также статус заявки на получения кредита можно увидеть в Личном Кабинете.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Когда можно оформить заявку на повторный кредит?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse9" class="panel-collapse collapse">
+                                  <div class="panel-body">Заявку на повторный кредит, можно оформить, только после погашения существующего кредита.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">При просроченном кредите?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse10" class="panel-collapse collapse">
+                                  <div class="panel-body">По истечению 24 часов от даты возврата кредита, обозначенного в договоре, процентная ставка за пользования кредитом - 3% от суммы несвоевременно возвращенного кредита за каждый день пользования кредитом свыше срока действия договора. По истечению 30 дней от даты возврата кредита согласно договора, будет начислен единоразовый штраф в размере 50% от суммы кредита. По истечению 99 дней от даты возврата кредита согласно договора, начисление процентов за пользования кредитом прекращается.</div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Могу ли я погасить кредит досрочно?</a>
+                                  </h4>
+                                </div>
+                                <div id="collapse11" class="panel-collapse collapse">
+                                  <div class="panel-body">Да, вы можете погасить кредит досрочно и оплатить проценты за пользование кредитом. При досрочном погашении кредита начисление процентов по договору совершается за фактическое количество календарных дней пользования кредитом.</div>
+                                </div>
+                              </div>
+                          </div> 
+                                     
+                          <div class="empty">
+
+                          </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <footer class="page-footer font-small blue pt-4 downFooter">
+
+            <!-- Footer Links -->
+            <div class="container">
+        
+              <!-- Grid row -->
+              <div class="row">
+        
+                <!--
+                <div class="col-md-6 mt-md-0 mt-3">
+        
+        
+                  <h5 class="text-uppercase">Footer Content</h5>
+                  <p>Here you can use rows and columns here to organize your footer content.</p>
+        
+                </div>
+        
+        
+                <hr class="clearfix w-100 d-md-none pb-3">
+        
+        
+                <div class="col-md-3 mb-md-0 mb-3">
+        
+        
+                    <h5 class="text-uppercase">Links</h5>
+        
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!">Link 1</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 2</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 3</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 4</a>
+                      </li>
+                    </ul>
+        
+                  </div>
+        
+                  <div class="col-md-3 mb-md-0 mb-3">
+        
+        
+                    <h5 class="text-uppercase">Links</h5>
+        
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!">Link 1</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 2</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 3</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 4</a>
+                      </li>
+                    </ul>
+        
+                  </div>
+                 Grid column -->
+        
+                 <!-- html here.. -->
+                 <br>
+                 <br>
+                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <img src="/images/Group 47.png">
+                     <br>
+                     <br>
+                     <p class="textSizeAndFont2Footer">Сервис предоставляет кредит на выгодных<br>условиях, но самое главное преимущество<br>заключается в отсутствии бюрократии.</p><br>
+                     <a class="footerButtonStyle  btn-info" href="google.com" role="button"><span class="footerButtonStyleText text-center">Получить Кредит</span></a>
+        
+        
+                 </div>
+        
+        
+                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        
+                        <h4 class="text-left Text MobileTextFooterUrl">Ссылки</h4>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <a class="textSizeAndFont2Footer" href="google.com">Наши преимущества</a><br><a class="textSizeAndFont2Footer" href="google.com">Как взять заем?</a>
+                        <br><a class="textSizeAndFont2Footer" href="google.com">Последние новости</a>
+        
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <a class="textSizeAndFont2Footer" href="google.com">О нас</a><br>
+                            <a class="textSizeAndFont2Footer" href="google.com">Как это работает</a><br><a class="textSizeAndFont2Footer" href="google.com">Как погасить</a>
+                        </div>
+        
+                 </div>
+        
+        
+                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <h4 class="text-left Text">Контакты</h4>
+                     <p class="textSizeAndFont2Footer">08135, Киевская обл., Киево-Святошинский р-н, с. Чайки, ул. Антонова, 8А</p>
+                     <i class="glyphicon glyphicon-envelope greenfontforglyp"></i><span class="Text">&nbsp;info@koshelok.net</span><br>
+                     <i class="glyphicon glyphicon-phone greenfontforglyp"></i><span class="Text">&nbsp;+38 (093) 238-20-20 </span><br>
+                     <i class="glyphicon glyphicon-phone greenfontforglyp"></i><span class="Text">&nbsp;+38 (095) 238-20-20 </span><br>
+                     <i class="glyphicon glyphicon-phone greenfontforglyp"></i><span class="Text">&nbsp;+38 (096) 238-20-20 </span>
+        
+                 </div>
+        
+                 <br>
+        
+              </div>
+              <!-- Grid row -->
+              <br>
+              <br>
+            </div>
+            <!-- Footer Links -->
+        
+        
+        
+        
+        
+          </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="/scripts/jquery-ui.js"></script>
+  <script src="/scripts/compressed.js"></script>
+  <script src="/scripts/AnimatedImg.js"></script>
+  <script src="/scripts/touch.js"></script>
+  <script src="/scripts/slider.js"></script>
+  <script src="/scripts/simplebar.js"></script>
+
+
+
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- ТулТип для посказок в меню -->
+
+</body>
+
+</html>

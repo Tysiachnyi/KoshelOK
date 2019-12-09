@@ -1,0 +1,18 @@
+
+  
+  
+  .wrap {
+    display: flex;
+    width: 1110px; /*для примера*/
+    min-height: 100%;
+    margin: auto;
+    border: 1px dotted red;
+  }
+  aside {
+    width: 370px;
+    background: #666;
+  }
+  main {
+    flex: 1px;
+    background: #aaa;
+  }

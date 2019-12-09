@@ -1,0 +1,26 @@
+.nav_link{
+    color: #3B4148;
+}
+.nav_link:hover{
+    color: #0CC219;
+    transition: .2s ease;
+    transform: scale(1.1);
+}
+
+.nav_item_cabinet{
+    border: 2px solid #0CC219;
+    border-radius: 10px;
+}
+
+.nav_item_cabinet_link{
+
+}
+.nav_item_cabinet_glyp{
+    color: #0CC219;
+}
+
+.ui-slider .ui-slider-handle.ui-slider-handle:hover{
+    transform: scale(1.2);
+    
+
+}

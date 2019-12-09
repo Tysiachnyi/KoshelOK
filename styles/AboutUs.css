@@ -1,0 +1,89 @@
+.FirstColumn{
+    border: 1px solid green;
+    position: absolute;
+    margin-top: 0px;
+    width: 21%;
+}
+
+.TopCaseOnTop{
+    position: absolute;
+    left: 14%;
+}
+
+.FirstCase{
+    width: 370px;
+    height: 227px;
+    background: white;
+    border: 1px solid green;
+}
+
+.CalculatorCase{
+
+}
+
+.PochemuLudcheUNas{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+}
+
+.NewsDiv{
+    width: 370px;
+    height: 227px;
+    border: 1px solid green;
+    margin-bottom: 30px;
+}
+
+.TextSizeFirstCase{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.BreadcambPosition{
+    position: absolute;
+    left: -30%;
+}
+
+.RightBigSize{
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.RightBigSizePositin{
+    width: 770px;
+    height: 89px;
+    
+}
+
+.ImgClass{
+    position: absolute;
+    left: -29%;
+}
+
+.LongTextDiv{
+    width: 770px;
+    height: 585px;
+}
+.LongText{
+    font-size: 15px;
+    font-weight: medium;
+}
+
+.AboutUsTextRight{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.BigTextAfterMain{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ImgHelp{
+    width: 90%; 
+   
+}

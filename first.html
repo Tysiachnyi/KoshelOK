@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/calcilator.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/shop.css">
+    <link rel="stylesheet" href="/styles/simlebar.css">
+    <link rel="stylesheet" href="/styles/animation.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+
+
+    
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/media1.css">
+   
+
+
+</head>
+<body>
+
+
+        
+
+
+    <div id="firstBurger" class="MainPage" >
+
+        <div class="container">
+
+
+
+
+
+           <br>
+
+
+
+
+
+
+           <nav class="navbar">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle navbarToggleVisible" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar LineVisibleNavBar"></span>
+                    <span class="icon-bar LineVisibleNavBar"></span>
+                    <span class="icon-bar LineVisibleNavBar"></span>
+                  </button>
+                  <span class="LinkTopSide"><img src="/images/Group 47.png"></span>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                          <a class="dropdown-toggle LinkTopSide TextLink" data-toggle="dropdown" href="#"><span class="TextLink">О нас</span>&nbsp;<span class="caret"></span></a>
+                          <ul class="dropdown-menu SpecialForUL">
+                            <li class="LinkTopSide"><a class="firstpage_dropdrowm-link" href="some.html">Новости</a></li>
+                            <li class="LinkTopSide"><a class="firstpage_dropdrowm-link" href="security.html">Безопасность</a></li>
+                            <li class="LinkTopSide"><a class="firstpage_dropdrowm-link" href="urinfo.html">Документы</a></li>
+                             <li class="LinkTopSide"><a class="firstpage_dropdrowm-link" href="presscentr.html">Пресс-центр</a></li>
+                          </ul>
+                        </li>
+                  
+                    <li class="LinkTopSide"><a class="TextLink" href="howitswork.html">Как это работает</a></li>
+                    <li class="LinkTopSide"><a class="TextLink" href="kakpogasit.html">Как погасить</a></li>
+                    <li class="LinkTopSide"><a class="TextLink" href="answers.html">Вопросы и ответы</a></li>
+                  </ul>
+                  
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="LinkTopSide"><a class="TextLink"  href="#">Ru</a></li>
+                      <li class="LinkTopSide"><a class="userProfileBorder" id="LichniyCabinet"  href="#"><i class="glyphicon glyphicon-user WhiteBcs"></i><span class="TextLink">&nbsp; &nbsp;Личный кабинет</span></a></li>
+                  </ul>
+                
+                </div>
+            </div>
+            
+            </nav>
+            
+            <div class="col-lg-8 ">
+                <br>
+
+
+                  <span class="bigSizeh2"> Срочный онлайн
+                    кредит на
+                   банковскую карту!</span>
+
+
+                          <p class="textSizeAndFont2White">Мы предоставляем кредит на выгодных условиях, но самое главное преимущество заключается в отсутствии бюрократии, ведь для оформления финансовых обязательств
+                                  не требуются никакие бумаги.</p>
+              </div>
+
+
+            <div class="whitebg col-lg-4 ">
+                    <p class="text-center textBig">Мгновенный кредит!</p>
+                    <span class="">Выберите сумму</span>
+                    <input type="number" id="credit-amount" class="AmountInputInCalc credit-class value iPadNumber" min="100" max="15000" value="2680">
+                    <div class="slider amount ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all ui-draggable ui-draggable-handle">
+                            <div class="indicate content-justify">
+                                <span class="leftCreditLimit">500</span>
+                                <span class="rightCreditLimit">15000</span>
+                                <span class="amount-indicate hideNumber">2680</span>
+                                </div>
+
+                                <span id="overflow">Можно получить</span><span id="overflow">Можно получить</span>
+                            </div>
+                                <br>
+                                <br>
+                                <br>
+                                <span class="">Выберите срок</span>
+                                <input type="number" id="days-amount" step="1" value="30" min="7" max="65" class="DateInputInCalc credit-class value iPadDate">
+                                <div class="slider days ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all ui-draggable ui-draggable-handle">
+                                        <div class="indicate content-justify">
+                                            <span class="leftDateLimit">7</span>
+                                            <span class="rightDateLimit">65</span>
+                                            <span class="day-indicate hideNumber">65</span>
+
+                                        </div>
+                                        
+                                        <span id="overdays"><br>постоянным клиентам</span>
+                                      </div>
+                                        <div class="DateMoneyBack">
+                                        <span class="VseBukvivCalc">Дата возврата</span>
+                                        <span class="pull-right NumbersInCalc" id="date">26.03.2019</span>
+                                        </div>
+                                        <div class="marginbot_13 borderGrey">
+                                                <span class="VseBukvivCalc">Тело кредита</span>
+                                                <span class="pull-right NumbersInCalc" id="credit-body" data-value="15000">15000</span>
+                                        </div>
+                                        <div class="marginbot_13">
+                                                <span class="VseBukvivCalc">Проценты по кредиту</span>
+                                                <span class="pull-right NumbersInCalc" id="percents">6075 грн</span>
+                                        </div>
+                                        <div class="marginbot_13 borderGrey">
+                                                <span class="VseBukvivCalc">Сумма к возврату</span>
+                                                <span class="pull-right NumbersInCalc" id="cashback">21075 грн</span>
+                                        </div>
+                                        <a class="calculator__link" href="https://app.koshelok.net/register">Получить кредит</a>
+
+
+
+
+
+                                <br>
+
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+                                    <div class="AfterMain ">
+                                            <br>
+                                            <br>
+                                        <div class="container">
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                                    <h3 class="Info text-center">Как это работает</h3>
+                                </div>
+                                <br>
+                                <div class="row">
+
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <img class="imgMarginLeft" src="/images/Group 166.png">
+                                        <br>
+                                        <br>
+                                        <p class="centeringText textSizeAndFont2 FirstTextAfterMain">Убеждаемся, что мобильный телефон, паспорт и платежная банковская карточка находятся под рукой (они понадобятся в процессе составления заявки и верификации).</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                            <img class="imgMarginLeft" src="/images/Group 167.png">
+                                            <br>
+                                            <br>
+                                            <p class="centeringText textSizeAndFont2 SecondTextAfterMain">На онлайн калькуляторе самостоятельно выбираем и оцениваем финансовые условия предоставления кредита (тело, срок предоставления, процентная ставка, сумма начисляемых процентов). Этот шаг – не обязательный, но настоятельно рекомендуемый.</p>
+
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                            <img class="imgMarginLeft" src="/images/Group 168.png">
+                                        <br>
+                                        <br>
+                                            <p class="centeringText textSizeAndFont2 ThreeTextAfterMain">Заполняем форму заявки на получение кредита. Если есть твердое намерение его получить (и в дальнейшем продолжить сотрудничество с «Кошельком»), то отвечать на поставленные вопросы необходимо исчерпывающе и правдиво</p>
+                                    </div>
+                                </div>
+
+                                </div>
+
+                                <br>
+                                <br>
+                            </div>
+
+                        <div class="Kak">
+                                <br>
+                                <br>
+                            <div class="container">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                                            <h3 class="Info text-center">Как взять заем?</h3>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                                                <p class="text text-center textSizeAndFont2">Сервис «Кошельок» предлагает возможность срочно оформить заем через интернет на банковскую карту в день подачи заявки.<br> Обращаясь к нам, клиенты всегда уверены, что средства будет легко как взять, так и вернуть.<br>
+                                                        Для получения денег достаточно выполнить несколько простых действий:</p>
+                                            </div>
+
+                                        <div class="row">
+
+
+                                            <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+
+                                            <img class="FirstStepImg" src="/images/Group 43.png">
+
+                                            <span class="FirstStepText text-center">Заполнить заявку в <br>личном кабинете</span>
+
+
+
+                                        </div>
+
+
+                                        <!-- <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                                               <br>
+
+                                               <hr class="line">
+                                        </div> -->
+
+                                        <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+
+                                                <img class="TwoStepImg" src="/images/Group 44.png">
+                                                <br>
+                                                <br>
+                                                <span class="TwoStepText text-center">Указать свои<br> контактные данные
+                                                    </span>
+
+
+                                            </div>
+
+                                            <!-- <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                                                    <br>
+                                                    <hr class="line">
+                                             </div> -->
+                                             <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+
+                                                    <img class="ThreeStepImg" src="/images/Group 45.png">
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <p class="ThreeStepText text-center">Дождаться <br> принятия решения
+                                                        </p>
+
+
+                                                </div>
+                                                <!-- <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                                                        <br>
+
+                                                        <hr class="line">
+                                                 </div> -->
+                                                 <div class="col-xs-0 col-sm-6 col-md-3 col-lg-3">
+
+                                                        <img class="ForStep" src="/images/Group 46.png">
+
+                                                        <p class="ForStepText">Получить займ
+                                                        </p>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                        <br>
+                                                       <br>
+
+
+                                                    </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        </div>
+                        <div class="NewsAndVideo">
+                            <br>
+                            <br>
+
+
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                                        <h2 class="text-left Texth2GreeBG">Последние новости</h2>
+
+
+                                        <div class="newsDiv">
+                                            <div class="leftDiv well well-lg col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                                    <span class="text-center newsDateText DateNumber">26 </span>
+                                                    <span class="text-center newsDateNumber DateMobileNews">Мая </span>
+                                            </div>
+                                            <div class=" well well-lg col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                                <p class="newsDateTextInDiv">«Кошельок» вдвое снизил ставки по<br>
+                                                    займам для новых клиентов!</p><br>
+                                                <a class="newsDateLinkInDiv">Читать дальше</a>
+
+                                                </div>
+                                        </div>
+
+                                        <div class="newsDiv">
+                                                <div class="leftDiv well well-lg col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                                    <span class="text-center newsDateText DateNumber">26 </span>
+                                                    <span class="text-center newsDateNumber DateMobileNews">Мая </span>
+                                                </div>
+                                                <div class=" well well-lg col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                                        <p class="newsDateTextInDiv">«Кошельок» вдвое снизил ставки по<br>
+                                                            займам для новых клиентов!</p><br>
+                                                    <a class="newsDateLinkInDiv">Читать дальше</a>
+
+                                                    </div>
+                                            </div>
+                                            <button type="button" class="ButtonOnNews btn btn-default btn-sm btn-block">Показать все новости</button>
+
+
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                                            <h2 class="text-left Texth2GreeBG">Название ролика</h2>
+                                            
+
+                                       <iframe width="610" height="380"src="https://www.youtube.com/embed/60ahvLeZh58">
+                                    </iframe>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                             <br>
+                             <br>
+
+    </div>
+
+    <div class="FiveLevel">
+        <div class="container">
+            <div class="row">
+                <br>
+                <br>
+                <br>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                 <h2 class="text-center Text">Наши преимущества</h2>
+
+                </div>
+
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                 <h4 class="text-center textSizeAndFont2">Обращение в нашу компанию выгоднее кредита в банке или другой кредитной организации,<br> поскольку у нашей системы есть следующие преимущества</h4>
+
+                </div>
+
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+
+                                        <br>
+                                        <div>
+                                            <div class="well PreimushestvaClassSm outofborder"><i class="dot"></i> &nbsp;<span class="textOnAllQuallity">  Мы предоставляем деньги максимально быстро</span></div>
+                                            <div class="well PreimushestvaClassSm outofborder"><i class="dot"></i> &nbsp;<span class="textOnAllQuallity">Есть программа лояльности для постоянных клиентов</div>
+                                            <div class="well well-md outofborder wellModifiedonMob"><i class="dot"></i> &nbsp; <span class="textOnAllQuallity">Не требуется пакет документов, обязательный для получения кредита в банке</span></div>
+                                             <div class="well PreimushestvaClassSm outofborder"><i class="dot"></i> &nbsp;<span class="textOnAllQuallity"> Простые и прозрачные условия сотрудничества</span></div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+                                        
+                                      <div class="marginedRight">
+                                    
+
+
+                                    <div class="well well-md outofborder wellModifiedonMob"><i class="dot"></i> &nbsp; <span class="textOnAllQuallity">график платежей, который всегда можно посмотреть в личном кабинете</span></div>
+                                    <div class="well well-md outofborder wellModifiedonMob"><i class="dot"></i> &nbsp; <span class="textOnAllQuallity">возможность получить деньги наличными или получить онлайн займ на карту</span></div>
+                                    <div class="well well-md outofborder wellModifiedonMob"><i class="dot"></i> &nbsp; <span class="textOnAllQuallity">минимальная переплата, которая делает наш продукт оптимальным вариантом во многих ситуациях.</span></div>
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="SixLevel">
+      <div class="container">
+           <div class="row">
+
+            <br>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 SixLevelLeft">
+                <!-- 1.Сделай для них left-margin  -->
+            <br>
+           <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ><image class="test" src="/images/footer/client1.png"> </image></span>
+           <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ><image class="test2" src="/images/footer/partner-comodo.png"> </image></span>
+         <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ><image class="test3" src="/images/footer/partner-mastercard.png"> </image></span>
+        <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ><image class="test4" src="/images/footer/partner-platon.png"> </image></span>
+          <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ><image class="test5" src="/images/footer/partner-visa.png"> </image></span>
+                  <!-- 1.Сделай для них left-margin  -->
+                  <br>
+
+                </div>
+             </div>
+
+
+             <br>
+
+
+
+      </div>
+
+    </div>
+
+
+    <footer class="page-footer font-small blue pt-4 downFooter">
+
+    <!-- Footer Links -->
+    <div class="container">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!--
+        <div class="col-md-6 mt-md-0 mt-3">
+
+
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+
+        </div>
+
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+
+        <div class="col-md-3 mb-md-0 mb-3">
+
+
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+
+
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+         Grid column -->
+
+         <!-- html here.. -->
+         <br>
+         <br>
+         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+             <img src="images/Group 47.png">
+             <br>
+             <br>
+             <p class="textSizeAndFont2Footer">Сервис предоставляет кредит на выгодных<br>условиях, но самое главное преимущество<br>заключается в отсутствии бюрократии.</p><br>
+             <a class="footerButtonStyle  btn-info" href="https://app.koshelok.net/register" role="button"><span class="footerButtonStyleText text-center">Получить Кредит</span></a>
+
+
+         </div>
+
+
+         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+                <h4 class="text-left Text MobileTextFooterUrl">Ссылки</h4>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <a class="textSizeAndFont2Footer" href="google.com">Наши преимущества</a><br><a class="textSizeAndFont2Footer" href="google.com">Как взять заем?</a>
+                <br><a class="textSizeAndFont2Footer" href="google.com">Последние новости</a>
+
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a class="textSizeAndFont2Footer" href="google.com">О нас</a><br>
+                    <a class="textSizeAndFont2Footer" href="google.com">Как это работает</a><br><a class="textSizeAndFont2Footer" href="google.com">Как погасить</a>
+                </div>
+
+         </div>
+
+
+         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+             <h4 class="text-left Text">Контакты</h4>
+             <p class="textSizeAndFont2Footer">08135, Киевская обл., Киево-Святошинский р-н, с. Чайки, ул. Антонова, 8А</p>
+             <i class="glyphicon glyphicon-envelope greenfontforglyp"></i><span class="Text">&nbsp;info@koshelok.net</span><br>
+             <i class="glyphicon glyphicon-phone greenfontforglyp"></i><span class="Text">&nbsp;+38 (093) 238-20-20 </span><br>
+             <i class="glyphicon glyphicon-phone greenfontforglyp"></i><span class="Text">&nbsp;+38 (095) 238-20-20 </span><br>
+             <i class="glyphicon glyphicon-phone greenfontforglyp"></i><span class="Text">&nbsp;+38 (096) 238-20-20 </span>
+
+         </div>
+
+         <br>
+
+      </div>
+      <!-- Grid row -->
+      <br>
+      <br>
+    </div>
+    <!-- Footer Links -->
+
+
+
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="/scripts/jquery-ui.js"></script>
+  <script src="/scripts/compressed.js"></script>
+  <script src="/scripts/AnimatedImg.js"></script>
+  <script src="/scripts/touch.js"></script>
+  <script src="/scripts/slider.js"></script>
+  <script src="/scripts/simplebar.js"></script>
+
+
+
+ 
+</body>
+</html>
